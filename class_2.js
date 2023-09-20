@@ -25,28 +25,43 @@
 
 
 
-let ArrowFun = (a, b) => {
-    console.log('Arrow Function', a, b);
+let ArrowFun = (a) => {
+    // console.log('Arrow Function', a, b);
+    // a = 19;
+
+    console.log(typeof(fun));
+
+    function fun (){
+        console.log("function=======1====")
+    }
+    fun();
+    return 200;
+
+// values a and b and function fun me use kr skta hu, kitni bhi bar
 }
+ ArrowFun(19);
 
-ArrowFun(19, 80);
 
+function return_value(){
+    console.log("returned function");
+};
+return_value();
 
-let funNamevar = function () {
-    /*
-        code
-        return
-    */
-   /*
-        return
-   */
+// let funNamevar = function () {
+//     /*
+//         code
+//         return
+//     */
+//    /*
+//         return
+//    */
 
-        console.log('====inside solve ======')
-}
+//         console.log('====inside solve ======')
+// }
 
-funNamevar();
+// funNamevar();
 
-console.log(funNamevar, typeof funNamevar)
+// console.log(funNamevar, typeof funNamevar)
 
 // function sum(a, b){
 //     console.log('--sum of a and b---',a+b);
